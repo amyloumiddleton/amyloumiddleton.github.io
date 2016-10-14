@@ -1,0 +1,96 @@
+<style>
+@import url 'https://fonts.googleapis.com/css?family=Gentium+Basic';
+@import url 'https://fonts.googleapis.com/css?family=Montserrat+Subrayada';
+</style>
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 1em; /*1em = 16px*/
+	text-align: center;
+	background-color: #0000;
+}
+
+.wrapper {
+	padding: 10px auto;
+}
+header {
+	background-color: #FFED74;
+	padding: 20px;
+	border: 1px black solid;
+}
+
+nav a {
+	font-family: 'Gentium Basic', serif;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 550;
+	padding: 10px 30px 0 0;
+	background-color: #E8C66A;
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: #1E212B;
+	font-size: 3.75em;
+	text-align: center;
+	padding-bottom top: none;
+}
+
+h2{
+	font-family: 'Gentium Basic', serif;
+	font-size: 1.5em;
+	text-align: center;	
+	padding-bottom: 5px;
+	line-height: 1.5;
+	font-weight: 525;
+}
+
+h3 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 1.5em;
+	text-align: center;	
+}
+
+hr{
+	color: black;
+	width: 3em;
+	height: 3px;
+
+}
+
+p {
+	font-family: 'Gentium Basic', serif;
+	font-size: 1em;
+	text-align: center;	
+	padding: 8px;
+	width: 30em;
+	line-height: 1.5;
+
+}
+
+img {
+	width: 60%;
+}
+
+section{
+	width:30em;
+	margin:2em auto;
+	background-color: #FFE2B8;
+
+}
+footer {
+	padding: 10px;
+	font-family: 'Gentium Basic', serif;
+	background-color: #FF957E
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
