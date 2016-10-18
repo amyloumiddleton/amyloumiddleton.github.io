@@ -28,6 +28,9 @@ header {
 }
 nav {
     background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    width: auto;
 }
 nav a {
 	display:inline-block;
@@ -74,18 +77,28 @@ img {
 	width: 60%;
 }
 
+article {
+	background-color: #FFE2B8;
+	width: auto;
+	border: 1px black solid;
+    padding: 20px;
+}
+
 section{
 	width:30em;
 	margin:2em auto;
-	background-color: #FFE2B8;
-
 }
+
 footer {
-	padding: 10px;
 	background-color: #FF957E
+	border: 1px black solid;
+    padding: 20 10 20 10px;
 }
 
 footer a {
+	display:inline-block;
 	text-decoration: none;
-	color: inherit;
+	background-color: inherit;
+	color: black;
+	width: auto;
 }
