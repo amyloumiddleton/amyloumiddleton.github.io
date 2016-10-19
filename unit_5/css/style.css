@@ -60,6 +60,10 @@ h3 {
 	text-align: center;	
 }
 
+h4 {
+	font-size: 1.25em;
+}
+
 hr{
 	background-color: #222;
 	width: 3em;
@@ -102,3 +106,7 @@ footer a {
 	color: black;
 	width: auto;
 }
+
+img footer { 
+	width: 40%;
+ }
