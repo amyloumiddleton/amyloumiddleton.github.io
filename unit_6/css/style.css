@@ -15,7 +15,7 @@ body {
 	line-height: 1.5;
 }
 
-header {
+#splash {
 	background: url(../images/heroimage2.jpeg);
 	padding: 20px;
 	background-repeat: no-repeat;
@@ -24,10 +24,11 @@ header {
 	height: 90vh;
 }
 nav {
-    /*background-color: #E8C66A;*/
-    border: 1px black solid;
+    /* background-color: #E8C66A; */
+    /* border: 1px black solid; */
     padding: 20px;
-    width: auto;
+    width: 100%;
+    float: left;
 }
 nav a {
 	display:inline-block;
@@ -43,13 +44,15 @@ nav a:hover{
 
 main {
 	background-color: yellow;
-	width: auto;
+	width: 1200px;
+	margin: auto;
 }
 h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 3.75em;
 	text-align: center;
 	padding-bottom top: none;
+	margin-top: 2em;
 }
 
 h2{
@@ -89,49 +92,37 @@ img {
 section {
 	width: auto;
 	margin: 10 0 10 0px;
-	height: 500px;
 }
 
 section img {
 	max-width: 615 px;
 	display: block;
 	margin: auto;
-
 }
 
 .three_column {
 	/*background-color: #ffb7cf;*/
 	border: 1px black solid;
 	/*padding: 10, 0, 0, 10px;*/
-	height: 650px;
-
 }
-
+.three_column section {
+ 	border:1px solid;
+ 	padding: 2em;
+ 	float:left;
+ 	width: 32.33%;
+ 	margin: .5%;
+ 	min-height: 37em;
+ }
 #left {
 	background-color: #e582a2;
-	border: 1px black solid;
-	padding: 10px;
-	float: left;
-	width: 400px;
-	margin: 20px;
 }
 
 #middle{
 	background-color: grey;
-	border: 1px black solid;
-	padding: 10px;
-	float: left;
-	width: 400px;
-	margin: 20px;
 }
 
 #right{
 	background-color: #e55b88;
-	border: 1px black solid;
-	padding: 10px;
-	float: left;
-	width: 400px;
-	margin: 20px;
 }
 
 .clearfix:after {
