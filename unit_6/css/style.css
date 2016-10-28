@@ -15,7 +15,7 @@ body {
 	line-height: 1.5;
 }
 
-header {
+#splash {
 	background: url(../images/heroimage2.jpeg);
 	padding: 20px;
 	background-repeat: no-repeat;
@@ -25,11 +25,14 @@ header {
 }
 nav {
     /*background-color: #E8C66A;*/
-    border: 1px black solid;
+    /*border: 1px black solid;*/
     padding: 20px;
-    width: auto;
+    width: 100%;
+    border: 1px black solid;
+    float: left;
+    background-color: white;
 }
-nav a {
+nav a{
 	display:inline-block;
 	font-weight: 700;
 	padding: .5em 1em;
@@ -37,19 +40,27 @@ nav a {
 	color: inherit;
 }
 
-nav a:hover{
-	color: blue;
+nav a:visited{
+	font color: #000000;
 }
-
+nav a:hover{
+	bottom-border: 3px solid 
+	color: #000000;
+}
+nav a:active{
+	font color: #000000;
+}
 main {
-	background-color: yellow;
-	width: auto;
+	background-color: #9D97EC;
+	width: 1200px;
+	margin: auto;
 }
 h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 3.75em;
 	text-align: center;
 	padding-bottom top: none;
+	margin-top: 2em;
 }
 
 h2{
@@ -83,55 +94,46 @@ p {
 }
 
 img {
-	width: 60%;
+	width: 100%;
 }
 
 section {
 	width: auto;
-	margin: 10 0 10 0px;
-	height: 500px;
+	/*margin: 10 0 10 0px;*/
+	/*background-color: #9D97EC;*/
 }
 
 section img {
-	max-width: 615 px;
+	max-width: 600px;
 	display: block;
 	margin: auto;
-
 }
 
 .three_column {
 	/*background-color: #ffb7cf;*/
 	border: 1px black solid;
 	/*padding: 10, 0, 0, 10px;*/
-	height: 650px;
+}
 
+.three_column section {
+	border: 1px solid;
+	padding: 2em;
+	float: left;
+	width: 32.33%;
+	margin: .5%;
+	min-height: 25em;
 }
 
 #left {
-	background-color: #e582a2;
-	border: 1px black solid;
-	padding: 10px;
-	float: left;
-	width: 400px;
-	margin: 20px;
+	/*background-color: #e582a2;*/
 }
 
 #middle{
-	background-color: grey;
-	border: 1px black solid;
-	padding: 10px;
-	float: left;
-	width: 400px;
-	margin: 20px;
+	/*background-color: grey;*/
 }
 
 #right{
-	background-color: #e55b88;
-	border: 1px black solid;
-	padding: 10px;
-	float: left;
-	width: 400px;
-	margin: 20px;
+	/*background-color: #e55b88;*/
 }
 
 .clearfix:after {
@@ -144,14 +146,14 @@ section img {
 }
 
 .wrapper {
-	background-color: green;
+	/*background-color: green;*/
 	width: 95%;
 	padding: 10px auto;
 	margin: auto;
 
 }
 footer {
-	background-color: #FF957E;
+	/*background-color: #FF957E;*/
 	border: 1px black solid;
     padding: 20 10 20 10px;
 }
@@ -161,11 +163,10 @@ footer a {
 	text-decoration: none;
 	background-color: inherit;
 	color: black;
-	width: auto;
 }
 
 img footer { 
-	width: 40%;
+	width: 150px;
  }
 
 
