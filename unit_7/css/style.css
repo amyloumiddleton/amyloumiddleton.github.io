@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
+@import url 'https://fonts.googleapis.com/css?family=Montserrat+Subrayada';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-size: 1em; /*1em = 16px*/
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+	color: #222;
+	line-height: 1.5;
+}
+
+#splash {
+	background: url(../images/heroimage2.jpeg);
+	padding: 20px;
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	background-size: cover;
+	height: 90vh;
+}
+nav {
+    /*background-color: #E8C66A;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    width: 100%;
+    border: 1px black solid;
+    float: left;
+    background-color: white;
+}
+nav a{
+	display:inline-block;
+	font-weight: 700;
+	padding: .5em 1em;
+	text-decoration: none;
+	color: inherit;
+}
+
+nav a:visited{
+	font color: #000000;
+}
+nav a:hover{
+	bottom-border: 3px solid 
+	color: #000000;
+}
+nav a:active{
+	font color: #000000;
+}
+main {
+	background-color: #9D97EC;
+	width: 1200px;
+	margin: auto;
+}
+h1 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 3.75em;
+	text-align: center;
+	padding-bottom top: none;
+	margin-top: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+	text-align: center;	
+	padding-bottom: 5px;
+	padding-top: 7px;
+	font-weight: 800;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h3 {
+	font-family: 'Gentium Basic', serif
+	font-size: 1.5em;
+	text-align: center;	
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+hr{
+	background-color: #222;
+	width: 3em;
+	height: 3px;
+	margin:1em auto;
+	border-style: solid;
+}
+
+p {
+	text-align: center;	
+	padding: 8px;
+	font-family:'Montserrat Subrayada', sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+}
+
+img {
+	width: 100%;
+}
+
+section {
+	width: auto;
+	/*margin: 10 0 10 0px;*/
+	/*background-color: #9D97EC;*/
+}
+
+section img {
+	max-width: 600px;
+	display: block;
+	margin: auto;
+}
+
+.three_column {
+	/*background-color: #ffb7cf;*/
+	border: 1px black solid;
+	/*padding: 10, 0, 0, 10px;*/
+}
+
+.three_column section {
+	border: 1px solid;
+	padding: 2em;
+	float: left;
+	width: 32.33%;
+	margin: .5%;
+	min-height: 25em;
+}
+
+#left {
+	/*background-color: #e582a2;*/
+}
+
+#middle{
+	/*background-color: grey;*/
+}
+
+#right{
+	/*background-color: #e55b88;*/
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.wrapper {
+	/*background-color: green;*/
+	width: 95%;
+	padding: 10px auto;
+	margin: auto;
+
+}
+footer {
+	/*background-color: #FF957E;*/
+	border: 1px black solid;
+    padding: 20 10 20 10px;
+}
+
+footer a {
+	display:inline-block;
+	text-decoration: none;
+	background-color: inherit;
+	color: black;
+}
+
+img footer { 
+	width: 150px;
+ }
+
+
