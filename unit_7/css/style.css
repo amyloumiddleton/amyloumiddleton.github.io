@@ -59,8 +59,8 @@ main {
 h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 3.75em;
-	/*text-align: center;*/
-	padding-bottom top: none;
+	text-align: center;
+	padding-top: 90px;
 	margin-top: 2em;
 }
 
@@ -173,4 +173,6 @@ footer a {
 
 }
 
+img footer {
+}
 
