@@ -59,7 +59,7 @@ main {
 h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 3.75em;
-	text-align: center;
+	text-align: left;
 	padding-top: 90px;
 	margin-top: 2em;
 }
@@ -67,8 +67,8 @@ h1 {
 h2{
 	font-size: 1.5em;
 	text-align: center;	
-	padding-bottom: 5px;
-	padding-top: 7px;
+	padding-bottom: 1em;
+	padding-top: 1em;
 	font-weight: 700;
 	font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -77,6 +77,9 @@ h3 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 1.5em;
 	text-align: center;	
+	padding: 15px;
+	/*margin: 10px;*/
+	border-bottom: 1px;
 }
 
 h4 {
@@ -93,10 +96,13 @@ hr{
 
 p {
 	text-align: center;	
-	padding: 8px;
+	padding: 10px;
 	font-family:'Gentium Basic', serif;
-	font-size: 0.7em;
+	font-size: 1em;
 	font-weight: 400;
+	width: 500px;
+	display: block;
+
 }
 
 img {
@@ -115,6 +121,11 @@ section img {
 	margin: auto;
 }
 
+/*section {
+	font-size: 16px;
+	text-align: center;*/
+
+}
 .three_column {
 	/*background-color: #ffb7cf;*/
 	/*border: 1px black solid;*/
@@ -140,6 +151,7 @@ section img {
 
 #right{
 	background-color: #9FA8DA;
+	text-align: center;
 }
 
 
@@ -173,6 +185,8 @@ footer a {
 
 }
 
-img footer {
+footer img {
+width: 30%;
+margin-right: 5px
 }
 
