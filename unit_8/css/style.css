@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body { 
+	font-size: 1em; /*1em = 16px*/
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+	color: #222222;
+	line-height: 1.5;
+}
+
+#splash {
+	background: url(../images/heroimage2.jpg);
+	padding: 1.25em;
+	width: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+nav {
+    padding: 1.25em;
+    width: 100%;
+    float: left;
+    background-color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: black;
+}
+nav a {
+	display: inline-block;
+	font-weight: 700;
+	padding: .5em 1em;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:visited {
+	color: black;
+}
+nav a:hover {
+	color: #CFD8DC;
+}
+nav a:active {
+	color: black;
+}
+main {
+	width: 75em;
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 3.75em;
+	text-align: left;
+	padding-top: 2em;
+	margin-top: 2em;
+}
+
+hr{
+	background-color: #222;
+	width: 3em;
+	height: 0.1875em;
+	margin: 1em auto;
+	border-style: solid;
+}
+
+h2 {
+	font-size: 1.8em;
+	text-align: left;	
+	padding-top: 1em;
+	font-weight: 700;
+	font-family:'Gentium Basic', serif;
+}
+
+h3 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 1.5em;
+	text-align: center;	
+	padding: 1em;
+	margin: 0.625em;
+	border-bottom: 0.3125em;
+}
+
+p {
+	text-align: center;	
+	padding: 0.625em;
+	font-family:'Gentium Basic', serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+section p {
+	width: 32.33%;
+	float: middle;
+	display: block;
+}
+
+img {
+	width: 100%;
+}
+
+section img {
+	max-width: 25em;
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+.three_column section {
+	float: left;
+	width: 32.33%;
+	margin: .5%;
+	position: relative;
+}
+
+.three_column div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 0, 128, 0.36);
+    z-index: 1;
+}
+
+.three_column a {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	z-index: 2;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-weight: 700;
+	width: auto;
+	letter-spacing: 0.125em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.wrapper {
+	width: 95%;
+	padding: 0.625em auto;
+	margin: auto;
+}
+
+footer {
+    padding: 1.25 0.625 1.25 0.625;
+}
+
+footer a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: inherit;
+}
+footer a:visited {
+	color: black;
+}
+
+footer a:hover {
+	color: #CFD8DC;
+}
+
+footer a:active {
+	color: black;
+}
+
+footer img {
+width: 30%;
+}
+
+.social a:hover {
+	color: #CFD8DC;
+}
+
+.social a:visited {
+	color: black;
+}
+
+.social a:active {
+	color: black;
+}
+
+.shipping {
+background-color: #CFD8DC;
+color: black;
+padding: 1em;
+width: 100%;
+margin: auto;
+font-weight: 600;
+font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.shipping:visited {
+	color: black;
+}
+.shipping:hover {
+	color: white;
+}
+.shipping:active {
+	color: black;
+}
+
+#copyright p {
+text-align: right;
+padding: 0.625em;
+width: auto;
+}
+
