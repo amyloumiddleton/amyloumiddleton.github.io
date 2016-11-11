@@ -58,7 +58,7 @@ h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 3.75em;
 	text-align: left;
-	padding-top: 2em;
+	padding-top: 2.5em;
 	margin-top: 2em;
 }
 
@@ -80,11 +80,10 @@ h2 {
 
 h3 {
 	font-family: 'Montserrat Subrayada', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.9em;
 	text-align: center;	
-	padding: 1em;
+	padding-top: 2em;
 	margin: 0.625em;
-	border-bottom: 0.3125em;
 }
 
 p {
@@ -94,24 +93,21 @@ p {
 	font-size: 1em;
 	font-weight: 400;
 }
-
-section p {
-	width: 32.33%;
+.the_brief p {
 	display: block;
-	text-align: left;
-	float: left;
+	margin: auto;
+	width: 32.33%;
+	padding-bottom: 2.3em;
 }
 
 img {
 	width: 100%;
 }
 
-.three_column
- img {
+.three_column img {
 	max-width: 25em;
 	display: block;
 	margin: auto;
-	/* padding: 1em; */
 }
 
 .three_column a {
@@ -125,13 +121,14 @@ img {
     position: absolute;
     top: 1em;
     left: 1em;
-    background-color: rgba(128, 0, 128, 0.36);
+    background-color:rgba(61, 118, 250, 0.46);
     z-index: 1;
     right: 1em;
     bottom: 1em;
 }
 .three_column .last_div {
-	background:rgba(128,0,128,1);
+	background:rgba(61, 118, 250, 1);
+	float:left;
 }
 .three_column p {
 	position: absolute;
@@ -188,18 +185,6 @@ footer img {
 width: 30%;
 }
 
-.social a:hover {
-	color: #CFD8DC;
-}
-
-.social a:visited {
-	color: black;
-}
-
-.social a:active {
-	color: black;
-}
-
 .shipping {
 background-color: #CFD8DC;
 color: black;
@@ -222,7 +207,7 @@ font-family: 'Montserrat Subrayada', sans-serif;
 
 #copyright p {
 text-align: right;
-padding: 0.625em;
+padding: 0.725em;
 width: auto;
 }
 
