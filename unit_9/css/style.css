@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-size: 1em; /*1em = 16px*/
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+	color: #222222;
+	line-height: 1.5;
+}
+
+#splash {
+	background: url(../images/heroimage2.jpg);
+	padding: 1.25em;
+	width: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+nav {
+    padding: 1.25em;
+    width: 100%;
+    float: left;
+    background-color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: black;
+}
+nav a {
+	display: inline-block;
+	font-weight: 700;
+	padding: .5em 1em;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:visited {
+	color: black;
+}
+nav a:hover {
+	color: #CFD8DC;
+}
+nav a:active {
+	color: black;
+}
+main {
+	width: 75em;
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 3.75em;
+	text-align: left;
+	padding-top: 2.5em;
+	margin-top: 2em;
+}
+
+/*hr{
+	background-color: #222;
+	width: 3em;
+	height: 0.1875em;
+	margin: 1em auto;
+	border-style: solid;
+}*/
+
+h2 {
+	font-size: 1.8em;
+	text-align: left;	
+	padding-top: 1em;
+	font-weight: 700;
+	font-family:'Gentium Basic', serif;
+}
+
+h3 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 1.9em;
+	text-align: center;	
+	padding-top: 2em;
+	margin: 0.625em;
+}
+
+p {
+	text-align: center;
+	padding: 0.625em;
+	font-family:'Gentium Basic', serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+.the_brief p {
+	display: block;
+	margin: auto;
+	width: 33.33%;
+	padding-bottom: 2.3em;
+}
+
+img {
+	width: 100%;
+}
+
+.three_column img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.three_column a {
+	float: left;
+	width: 33.33%;
+	padding: 1em;
+	position: relative;
+}
+
+.three_column div {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background-color:rgba(61, 118, 250, 0.46);
+    opacity: 0;
+    transition: color ease-in-out 2s;
+    z-index: 1;
+    right: 1em;
+    bottom: 1em;
+}
+
+.three_column div:hover {
+	opacity: 1;
+	color: rgba(61, 118, 250, 0.46);
+}
+
+.three_column .last_div {
+	background:rgba(61, 118, 250, 1);
+	transition: none;
+}
+
+.three_column p {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	z-index: 2;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-weight: 700;
+	width: auto;
+	letter-spacing: 0.125em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.wrapper {
+	width: 95%;
+	padding: 0.625em auto;
+	margin: auto;
+}
+
+footer {
+    padding: 1.25 0.625 1.25 0.625;
+}
+
+footer a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.social img {
+	width: 30%;
+	padding: none;
+	margin: auto;
+}
+
+.shipping {
+background-color: #CFD8DC;
+color: black;
+padding: 1em;
+width: 100%;
+margin: auto;
+font-weight: 600;
+font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.shipping:visited {
+	color: black;
+}
+.shipping:hover {
+	color: white;
+}
+.shipping:active {
+	color: black;
+}
+
+#copyright p {
+text-align: right;
+padding: 0.725em;
+width: auto;
+}
+
+@media only screen and (max-width: 1138px) {
+
+.the_brief p {
+	width: 33.33%;
+}
+
+.three_column a {
+	float: left;
+	width: auto;
+	margin: auto;
+}
+
+.three_column img {
+	width: 100%;
+	display: block;
+	margin: auto;
+	}
+
+@media only screen and (max-width: 838px) {
+
+body {
+	font-size: 15px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	}
+
+.the_brief p {
+	width: 33.33%;
+	text-align: center;
+}
+
+.three_column a {
+	float: none;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.three_column img {
+	width: 33.33%;
+	display: block;
+	margin: auto;
+	}
+
+.three_column p {
+	
+}
+.navlinks a {
+	float: none;
+	display: block;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	display: none;
+}
+
+
+body {
+ font-size: 14px;
+	}
+
+.social a img {
+	width: 10%;
+	}
+
+}
