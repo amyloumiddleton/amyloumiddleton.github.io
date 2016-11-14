@@ -97,7 +97,7 @@ p {
 .the_brief p {
 	display: block;
 	margin: auto;
-	width: 32.33%;
+	width: 33.33%;
 	padding-bottom: 2.3em;
 }
 
@@ -113,7 +113,7 @@ img {
 
 .three_column a {
 	float: left;
-	width: 32.33%;
+	width: 33.33%;
 	padding: 1em;
 	position: relative;
 }
@@ -135,7 +135,7 @@ img {
 	color: rgba(61, 118, 250, 0.46);
 }
 
-.three_column.last_div {
+.three_column .last_div {
 	background:rgba(61, 118, 250, 1);
 	transition: none;
 }
@@ -179,20 +179,11 @@ footer a {
 	text-decoration: none;
 	background-color: inherit;
 }
-footer a:visited {
-	color: black;
-}
 
-footer a:hover {
-	color: #CFD8DC;
-}
-
-footer a:active {
-	color: black;
-}
-
-footer img {
-width: 30%;
+.social img {
+	width: 30%;
+	padding: none;
+	margin: auto;
 }
 
 .shipping {
@@ -221,25 +212,78 @@ padding: 0.725em;
 width: auto;
 }
 
-@media only screen and (max-width: 1134px) {
-.two_column a {
-	float: none;
+@media only screen and (max-width: 1138px) {
+
+.the_brief p {
+	width: 33.33%;
+}
+
+.three_column a {
+	float: left;
 	width: auto;
 	margin: auto;
 }
-.two_column img {
+
+.three_column img {
 	width: 100%;
 	display: block;
 	margin: auto;
 	}
+
+@media only screen and (max-width: 838px) {
+
+body {
+	font-size: 15px;
 }
 
-@media only screen and (max-width: 739px) {
+h1, h2, h3 {
+	text-align: center;
+	}
 
+.the_brief p {
+	width: 33.33%;
+	text-align: center;
+}
+
+.three_column a {
+	float: none;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.three_column img {
+	width: 33.33%;
+	display: block;
+	margin: auto;
+	}
+
+.three_column p {
+	
+}
+.navlinks a {
+	float: none;
+	display: block;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	display: none;
 }
 
 
+body {
+ font-size: 14px;
+	}
 
-@media only screen and (max-width: 360px){
+.social a img {
+	width: 10%;
+	}
 
 }
