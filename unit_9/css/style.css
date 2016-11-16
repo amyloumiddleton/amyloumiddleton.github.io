@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+@import url'https://fonts.googleapis.com/css?family=Montserrat+Subrayada';
 
 * {
 	padding: 0;
@@ -31,27 +31,27 @@ nav {
     float: left;
     background-color: white;
     font-family: 'Montserrat Subrayada', sans-serif;
-    color: black;
+    color: #222;
 }
 nav a {
 	display: inline-block;
 	font-weight: 700;
 	padding: .5em 1em;
 	text-decoration: none;
-	color: black;
+	color: #222;
 }
 
 nav a:visited {
-	color: black;
+	color: #222;
 }
 nav a:hover {
 	color: #CFD8DC;
 }
 nav a:active {
-	color: black;
+	color: #222;
 }
 main {
-	width: 75em;
+	width: 100%;
 	margin: auto;
 }
 
@@ -97,7 +97,7 @@ p {
 .the_brief p {
 	display: block;
 	margin: auto;
-	width: 33.33%;
+	width: 33%;
 	padding-bottom: 2.3em;
 	text-align: left;
 }
@@ -107,14 +107,14 @@ img {
 }
 
 .three_column img {
-	width: 100%;
+	width: 33%;
 	display: block;
 	margin: auto;
 }
 
 .three_column a {
 	float: left;
-	width: 33.33%;
+	width: 33%;
 	padding: 1em;
 	position: relative;
 }
@@ -123,22 +123,22 @@ img {
     position: absolute;
     top: 1em;
     left: 1em;
-    background-color:rgba(61, 118, 250, 0.46);
-    opacity: 0;
-    transition: color ease-in-out 2s;
+    background-color:rgba(61, 118, 250, 0);
+    transition: color ease-in-out 0.5s;
     z-index: 1;
     right: 1em;
     bottom: 1em;
+    margin: auto;
+    width: 66%;
 }
 
 .three_column div:hover {
 	opacity: 1;
-	color: rgba(61, 118, 250, 0.46);
+	background-color: rgba(61, 118, 250, 0.46);
 }
 
 .three_column .last_div {
-	background:rgba(61, 118, 250, 1);
-	transition: none;
+	background-color:rgba(61, 118, 250, 1);
 }
 
 .three_column p {
@@ -213,63 +213,68 @@ padding: 0.725em;
 width: auto;
 }
 
-@media only screen and (max-width: 1138px) {
+@media only screen and (max-width: 1132px) {
+
+.three_column div {
+	width: 66.99%;
+	display: block;
+	padding: 0;
+	margin: auto;
+	
+}
 
 .three_column a {
-	float: left;
-	width: auto;
-	margin: auto;
-}
-
-.three_column img {
-	width: 100%;
-	display: block;
-	margin: auto;
+	width: 48%;
+	padding: none;
 	}
 
-@media only screen and (max-width: 838px) {
-
-body {
-	font-size: 15px;
+.three_column img {
+	width: 48%;
+	padding: none;
+	}
 }
+@media only screen and (max-width: 942px) {
 
-h1 {
+h1, h2 {
 	text-align: center;
 	}
 
-.the_brief p {
-	width: 33.33%;
-}
-
 .three_column a {
 	float: none;
-	width: 100%;
-	margin: auto;
-	position: relative;
+	width: 55%;
 }
 
 .three_column img {
-	width: 33.33%;
+	width: 55%;
 	display: block;
+	padding: 30px;
 	margin: auto;
 	}
 
-.navlinks a {
-	float: none;
-	display: block;
+.three_column div {
+	width: 55%;
 	}
 }
 
-@media only screen and (max-width: 811px){
+@media only screen and (max-width: 811px) {
 
 h2 {
-	text-align: center;
+	display: none;
 	}
 }
-@media only screen and (max-width: 350px) {
+
+.three_column img {
+	width: 70%;
+	}
+}
+
+.three_column a {
+	pointer-events: none;
+}
+@media only screen and (max-width: 360px) {
 
 h1 {
-	font-size: 32px;
+	font-size: 25px;
 }
 
 body {
@@ -280,4 +285,23 @@ body {
 	width: 10%;
 	}
 
+nav a {
+	float: none;
+	} 
+
+.three_column div {
+	width: 100%;
+	
+}
+
+.three_column a {
+	width: 100%;
+	}
+
+.navlinks {
+	display: block;
+}	
+.three_column img {
+	width: 100%;
+	}
 }
