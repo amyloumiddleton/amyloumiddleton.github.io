@@ -51,7 +51,7 @@ nav a:active {
 	color: #222;
 }
 main {
-	width: 100%;
+	max-width: 1400px;
 	margin: auto;
 }
 
@@ -97,7 +97,7 @@ p {
 .the_brief p {
 	display: block;
 	margin: auto;
-	width: 33%;
+	width: 33.33%;
 	padding-bottom: 2.3em;
 	text-align: left;
 }
@@ -107,14 +107,13 @@ img {
 }
 
 .three_column img {
-	width: 33%;
-	display: block;
-	margin: auto;
+	width: 100%;
 }
 
 .three_column a {
 	float: left;
-	width: 33%;
+	line-height:0;
+	width: 33.33%;
 	padding: 1em;
 	position: relative;
 }
@@ -124,16 +123,14 @@ img {
     top: 1em;
     left: 1em;
     background-color:rgba(61, 118, 250, 0);
-    transition: color ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
     z-index: 1;
     right: 1em;
     bottom: 1em;
-    margin: auto;
-    width: 66%;
+    line-height:1.5;
 }
 
 .three_column div:hover {
-	opacity: 1;
 	background-color: rgba(61, 118, 250, 0.46);
 }
 
@@ -214,94 +211,49 @@ width: auto;
 }
 
 @media only screen and (max-width: 1132px) {
-
-.three_column div {
-	width: 66.99%;
-	display: block;
-	padding: 0;
-	margin: auto;
-	
-}
-
-.three_column a {
-	width: 48%;
-	padding: none;
+	.three_column a {
+		width: 50%;
 	}
-
-.three_column img {
-	width: 48%;
-	padding: none;
+	.three_column a:last-of-type {
+		width:100%;
+	}
+	.three_column a:nth-of-type(3) {
+		width:100%;
 	}
 }
 @media only screen and (max-width: 942px) {
-
-h1, h2 {
-	text-align: center;
+	h1, h2 {
+		text-align: center;
 	}
-
-.three_column a {
-	float: none;
-	width: 55%;
-}
-
-.three_column img {
-	width: 55%;
-	display: block;
-	padding: 30px;
-	margin: auto;
-	}
-
-.three_column div {
-	width: 55%;
+	.three_column div {
+		background-color:rgba(61, 118, 250, .42);
 	}
 }
-
+/*
 @media only screen and (max-width: 811px) {
-
-h2 {
-	display: none;
+	h2 {
+		display: none;
 	}
-}
-
-.three_column img {
-	width: 70%;
+	.three_column img {
+		width: 100%;
 	}
-}
-
-.three_column a {
-	pointer-events: none;
 }
 @media only screen and (max-width: 360px) {
-
-h1 {
-	font-size: 25px;
-}
-
-body {
- font-size: 14px;
+	h1 {
+		font-size: 25px;
 	}
-
-.social a img {
-	width: 10%;
+	.social a img {
+		width: 10%;
+		min-width:3em;
 	}
-
-nav a {
-	float: none;
+	nav a {
+		float: none;
 	} 
-
-.three_column div {
-	width: 100%;
-	
-}
-
-.three_column a {
-	width: 100%;
+	.three_column a {
+		width: 100%;
 	}
 
-.navlinks {
-	display: block;
-}	
-.three_column img {
-	width: 100%;
-	}
-}
+	.navlinks {
+		display: block;
+	}	
+}*/
