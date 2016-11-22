@@ -48,7 +48,12 @@ nav a:hover {
 	color: #CFD8DC;
 }
 nav a:active {
+	
 	color: #222;
+}
+
+#mobile {
+	display: none;
 }
 main {
 	max-width: 1400px;
@@ -138,6 +143,10 @@ img {
 	background-color:rgba(61, 118, 250, 1);
 }
 
+.three_column .last_div:hover {
+    transition: 0;
+}
+
 .three_column p {
 	position: absolute;
 	transform: translate(-50%,-50%);
@@ -195,13 +204,13 @@ font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .shipping:visited {
-	color: black;
+	color: #222;
 }
 .shipping:hover {
 	color: white;
 }
 .shipping:active {
-	color: black;
+	color: #222;
 }
 
 #copyright p {
@@ -210,50 +219,90 @@ padding: 0.725em;
 width: auto;
 }
 
-@media only screen and (max-width: 1132px) {
+@media only screen and (max-width: 993px) {
 	.three_column a {
 		width: 50%;
 	}
 	.three_column a:last-of-type {
-		width:100%;
+		width: 100%;
+
 	}
 	.three_column a:nth-of-type(3) {
 		width:100%;
 	}
-}
-@media only screen and (max-width: 942px) {
+	.three_column a:nth-of-type(6) {
+		width: 100%;
+	}
 	h1, h2 {
 		text-align: center;
 	}
+}
+
+@media only screen and (max-width: 728px) {
+
+	.three_column img {
+		width: 100%;
+		margin: auto;
+	}
+
 	.three_column div {
 		background-color:rgba(61, 118, 250, .42);
 	}
 }
-/*
-@media only screen and (max-width: 811px) {
+
+@media only screen and (max-width: 681px){
 	h2 {
-		display: none;
-	}
-	.three_column img {
-		width: 100%;
-	}
-}
-@media only screen and (max-width: 360px) {
-	h1 {
-		font-size: 25px;
-	}
-	.social a img {
-		width: 10%;
-		min-width:3em;
-	}
-	nav a {
-		float: none;
-	} 
-	.three_column a {
-		width: 100%;
+	display: none;
 	}
 
-	.navlinks {
-		display: block;
-	}	
-}*/
+.the_brief p {
+	width: 50%;
+	} 
+}
+
+@media only screen and (max-width: 655px){
+
+h1 {
+	font-size: 3.4em;
+}
+
+h3 {
+	font-size: 1.7em;
+	}
+}
+@media only screen and (max-width: 624px) {
+
+.three_column a {
+	float: none;
+	display:block;
+	width:100%; 
+	margin:0 auto;
+	}
+
+footer nav {
+	display: block;
+	float: none;
+	}
+
+nav a {
+		display: none;
+		float: none;
+	}
+
+#mobile {
+	display: block;
+}
+
+nav:hover a {
+	display: block;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	
+
+h1 {
+		font-size: 3em;
+	}
+
+}
