@@ -44,9 +44,11 @@ nav a {
 nav a:visited {
 	color: #222;
 }
+
 nav a:hover {
 	color: #CFD8DC;
 }
+
 nav a:active {
 	
 	color: #222;
@@ -55,6 +57,7 @@ nav a:active {
 #mobile {
 	display: none;
 }
+
 main {
 	max-width: 1400px;
 	margin: auto;
@@ -67,14 +70,6 @@ h1 {
 	padding-top: 2.5em;
 	margin-top: 2em;
 }
-
-/*hr{
-	background-color: #222;
-	width: 3em;
-	height: 0.1875em;
-	margin: 1em auto;
-	border-style: solid;
-}*/
 
 h2 {
 	font-size: 1.8em;
@@ -99,6 +94,7 @@ p {
 	font-size: 1em;
 	font-weight: 400;
 }
+
 .the_brief p {
 	display: block;
 	margin: auto;
@@ -194,13 +190,13 @@ footer a {
 }
 
 .shipping {
-background-color: #CFD8DC;
-color: black;
-padding: 1em;
-width: 100%;
-margin: auto;
-font-weight: 600;
-font-family: 'Montserrat Subrayada', sans-serif;
+	background-color: #CFD8DC;
+	color: black;
+	padding: 1em;
+	width: 100%;
+	margin: auto;
+	font-weight: 600;
+	font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .shipping:visited {
@@ -214,39 +210,41 @@ font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 #copyright p {
-text-align: right;
-padding: 0.725em;
-width: auto;
+	text-align: right;
+	padding: 0.725em;
+	width: auto;
 }
 
 @media only screen and (max-width: 993px) {
-	.three_column a {
-		width: 50%;
+.three_column a {
+	width: 50%;
 	}
-	.three_column a:last-of-type {
-		width: 100%;
 
+.three_column a:last-of-type {
+	width: 100%;
 	}
-	.three_column a:nth-of-type(3) {
-		width:100%;
+
+.three_column a:nth-of-type(3) {
+	width:100%;
 	}
-	.three_column a:nth-of-type(6) {
-		width: 100%;
+
+.three_column a:nth-of-type(6) {
+	width: 100%;
 	}
-	h1, h2 {
-		text-align: center;
+
+h1, h2 {
+	text-align: center;
 	}
 }
 
 @media only screen and (max-width: 728px) {
-
-	.three_column img {
-		width: 100%;
-		margin: auto;
+.three_column img {
+	width: 100%;
+	margin: auto;
 	}
 
-	.three_column div {
-		background-color:rgba(61, 118, 250, .42);
+.three_column div {
+	background-color:rgba(61, 118, 250, .42);
 	}
 }
 
@@ -261,7 +259,6 @@ width: auto;
 }
 
 @media only screen and (max-width: 655px){
-
 h1 {
 	font-size: 3.4em;
 }
@@ -270,13 +267,25 @@ h3 {
 	font-size: 1.7em;
 	}
 }
-@media only screen and (max-width: 624px) {
 
+@media only screen and (max-width: 624px) {
 .three_column a {
 	float: none;
 	display:block;
-	width:100%; 
+	width:90%; 
 	margin:0 auto;
+	}
+
+.three_column a:last-of-type {
+	width: 90%;
+	}
+
+.three_column a:nth-of-type(3) {
+	width:90%;
+	}
+
+.three_column a:nth-of-type(6) {
+	width: 90%;
 	}
 
 footer nav {
@@ -285,13 +294,13 @@ footer nav {
 	}
 
 nav a {
-		display: none;
-		float: none;
+	display: none;
+	float: none;
 	}
 
 #mobile {
 	display: block;
-}
+	}
 
 nav:hover a {
 	display: block;
@@ -299,10 +308,7 @@ nav:hover a {
 }
 
 @media only screen and (max-width: 320px) {
-	
-
-h1 {
-		font-size: 3em;
+	h1 {
+	font-size: 3em;
 	}
-
 }
